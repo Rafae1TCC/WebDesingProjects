@@ -42,6 +42,13 @@ footer {
     height: 60px;
 }
 
+.card {
+
+    background-color: #e2ccbc;
+    box-shadow: 2px 2px 12px 1px rgba(140, 140, 140, .5);
+    padding: 10px;
+}
+
 .card h3 {
     margin-bottom: 10px;
     position:relative;
@@ -63,12 +70,6 @@ footer {
     gap: 20px;
 }
 
-.card {
-
-    background-color: #e2ccbc;
-    box-shadow: 2px 2px 12px 1px rgba(140, 140, 140, .5);
-    padding: 10px;
-}
 
 .card:hover{
 
@@ -96,4 +97,8 @@ img {
 .imgRet{
 
     width: 300px;
+}
+
+p{
+    text-align: justify;
 }
