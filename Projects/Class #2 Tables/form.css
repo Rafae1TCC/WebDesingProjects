@@ -1,0 +1,80 @@
+html{
+    font-size: 62.5%; /*  1rem = 10px  */
+}
+
+body{
+  font-family: "Oswald", sans-serif;
+}
+
+
+
+.my-form{
+
+    background-color: #e2ccbc;
+    box-shadow: 2px 2px 12px 1px rgba(140, 140, 140, .5);
+    padding: 2rem;
+    border-radius: 5px;
+
+}
+
+.form-control{
+
+    
+    margin-bottom: 1rem;
+
+}
+
+.form-control label{
+
+    display: block;
+    font-size: 1rem;
+
+}
+
+.form-control input{
+
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+
+.btn{
+    
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-left: auto;
+    font-size: 1.2rem;
+    border-radius: 5px;
+
+}
+
+.my-table{
+    font-size: 1.6rem;
+    border-collapse:collapse;
+}
+
+.my-table th{
+    
+    text-align: left;
+    border: 1px solid black;
+
+}
+
+.my-table .my-header{
+    background-color: #e2ccbc;
+}
+
+.my-table tr{
+    
+}
+
+.my-table td{
+    border: 1px solid black;
+    width: 15rem;
+    padding: 5px;
+}

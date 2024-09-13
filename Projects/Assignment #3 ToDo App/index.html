@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <img src="logo.png" alt="Logo">
+        <h1>Assignment #3: Todo App</h1>
+
+    </header>
+    <main>
+
+        <div class="presentation">
+            <h3> Welcome to the TODO APP!</h3>
+            <p> In this app, you'll be able to add and manage your tasks so you can keep track of them, just click on the add button to get started!</p>
+            <div class="add-task-button-container">
+                <button class="add-task-button" onclick="displayAddTaskCard()">Add Task</button>
+            </div>
+
+            <div class="add-task-card" id="addTaskCard">
+    
+                <div class="presentation">
+    
+                    <h3> Add a Task</h3>
+    
+                    <p>Fill in the requirements to add a task</p>
+    
+                    <div class="taskInput">
+    
+                        <label for="taskTitle" >Task title:</label>
+                        <input  type="text" id="taskTitle" name="taskTitle" placeholder="Wash the dishes..."><br><br>
+                    
+                    </div>
+    
+                    <div class="add-task-button-container">
+                        <button class="add-task-button" onclick="submitTask()">Submit Task</button>
+                    </div>
+                </div>
+    
+            </div>   
+
+        </div>
+
+
+        <div class="todo-container" id="taskDiv">
+        
+        </div>
+        
+    </main>
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-info">
+                <h3> Contact Us</h3>
+                <p> Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="footer-info">
+                <h3> Quick links</h3>
+                <p> Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="footer-info">
+                <h3> About us</h3>
+                <p> Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+
+    font-family: arial;
+    text-align: center;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.img-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 20rem;
+    
+}
+
+.container{
+
+    width:50%;
+    margin: auto;
+
+}
+
+
+.status-items{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+.btn-items{
+    
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}

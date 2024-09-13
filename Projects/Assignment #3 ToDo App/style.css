@@ -1,0 +1,160 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: rgb(225, 230, 185);
+
+}
+
+header{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(22, 121, 53);
+    justify-content: center;
+    align-items: center;
+
+}
+
+header img{
+
+    height: max-content;
+    width: 100px;
+
+}
+
+.todo-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    flex-wrap: wrap;
+    column-gap: 20px;
+    width: 100%;
+    max-width: 2000px;
+    padding-bottom: 100px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    flex-wrap: wrap;
+    column-gap: 20px;
+    width: 100%;
+    max-width: 2000px;
+    padding-bottom: 1.41rem;
+    background-color: rgb(22, 121, 53);
+    padding-top: 1.41rem;
+}
+
+.presentation{
+
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-info, .todo-task, .presentation{
+    display: grid;
+    background-color: rgb(22, 121, 53);
+    margin: 1rem;
+}
+.footer-info h3, .todo-task h3, .presentation h3{
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+.footer-info p, .todo-task p, .presentation p{
+    margin: 1rem;
+    text-align: center;
+}
+
+.todo-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 121, 53);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.todo-task h3 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.todo-task div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.todo-task button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.todo-task img{
+
+    margin: 10px;
+    height: max-content;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+
+}
+
+.add-task-button-container{
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-task-button{
+    
+    color: white;
+    font-size: 16px;
+    background: black;
+    padding: 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.add-task-card{
+
+    width: 350px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -50%;
+    visibility: hidden;
+
+}
+
+.display{
+    top: 25%;
+    visibility: visible;
+}
+
+.taskInput{
+
+    margin: 10px;
+
+}

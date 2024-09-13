@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>JavaScript test</title>
+    </head>
+    <body>
+        
+        <audio id="audioFeed" src="feed.mp3" autostart="false"></audio>
+        <audio id="audioShower" src="shower.mp3" autostart="false"></audio>
+        <audio id="audioSleep" src="sleep.mp3" autostart="false"></audio>
+        <audio id="audioPlay" src="play.mp3" autostart="false"></audio>
+        <audio id="audioDeath" src="death.mp3" autostart="false"></audio>
+
+    <h1>JS Session</h1>
+
+    <div>
+        <div class="img-container">
+            <img src="cat.webp" alt="">
+        </div>
+        <div class="status-container">
+            <h2>Status: <span id="announcement"></span></h2>
+            <div class="status-items">
+                
+                <p>Hunger: <span id="statusHunger"></span></p>
+                <p>Energy: <span id="statusEnergy"></span></p>
+                <p>Happiness: <span id="statusHappiness"></span></p>
+                <p>Days alive: <span id="dayCount"></span></p>
+                
+            </div>
+        </div>
+        
+        <div class="btn-items">
+            
+
+            <button onclick="feedPet()">Feed</button>
+            <button onclick="showerPet()">Shower</button>
+            <button onclick="sleepPet()">Sleep</button>
+            <button onclick="playWithPet()">Play</button>
+            
+            </div>
+            
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
