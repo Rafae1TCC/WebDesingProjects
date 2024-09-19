@@ -1,0 +1,27 @@
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header {
+    background-color: #2795d1;
+    padding: 20px;
+    width: auto;
+    position: relative;
+    margin: 1rem;
+    border-radius: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+#total{
+    position: absolute;
+}
